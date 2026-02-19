@@ -5,11 +5,12 @@ public class diff21 {
         System.out.print("Enter a number: ");
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        System.out.println("the diff21 of ("+n+") is: "+diff21(n));
+        System.out.println("the diff21 of ("+n+") is: "+diff21_(n));
+        scan.close();
         
     }
 
-    static int diff21(int n) {
+    static int diff21_(int n) {
             if (n == 21){
                 return 0;
             }
